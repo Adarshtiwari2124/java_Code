@@ -1,5 +1,7 @@
 package Recursion;
 
+import java.util.Scanner;
+
 public class FunctionCallingItself {
 //    public static void main(String[] args) {
 //        ajay();
@@ -19,7 +21,9 @@ public class FunctionCallingItself {
 //    }
 
     public static void main(String[] args) {
-        num(5);
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        num(n);
     }
 
     public static void num(int n){

@@ -5,7 +5,7 @@ public class mergeSort{
         int[] arr = { 1, 2, 5, 6, 19};
         int[] arr2 ={ 10,11,12,13};
 
-        int[] arr3= new int[arr.length+arr2.length];
+        int[] arr3= new int[arr.length + arr2.length];
         for(int ele:arr3){
             System.out.print(ele+" ");
         }
